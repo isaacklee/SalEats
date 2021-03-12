@@ -1,0 +1,27 @@
+DROP DATABASE IF EXISTS Users;
+
+
+CREATE DATABASE Users;
+USE Users;
+
+
+CREATE TABLE users (
+	userID INT(50) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    username VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password CHAR(100) NOT NULL
+);
+CREATE TABLE restaurants (
+    restaurantID INT(100) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    imageurl VARCHAR(200) NOT NULL,
+    url VARCHAR(100) NOT NULL,
+    address VARCHAR(100) NOT NULL,
+    number VARCHAR(100) NOT NULL,
+    cuisine VARCHAR(100) NOT NULL,
+    price VARCHAR(50) NOT NULL,
+    rating VARCHAR(50) NOT NULL,
+    rid VARCHAR(100) NOT NULL,
+    userID INT(50) NOT NULL,
+    FOREIGN KEY fk1(userID) REFERENCES users(userID) 
+);

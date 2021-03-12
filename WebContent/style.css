@@ -1,0 +1,46 @@
+@font-face{
+    font-family : Lobster;
+	src : url(/Assignment4/Lobster/Lobster-Regular.ttf);
+}
+.largefontsize{
+	font-size : large;
+}
+.hyperlink{
+	text-decoration: none;
+}
+.head{
+	font-family : Lobster;
+	color : #990000;
+}
+.cardinal{
+	background-color : #990000;
+}
+
+.white{
+	color:#FFFFFF;
+}
+.gold{
+	background-color : #FFCC00;
+}
+.btn-primary{
+	color: #990000;
+}
+.googlemap{
+	position:absolute;
+	height: 50px;
+	width : 600px;
+	top : 100px;
+	left: 200px;
+}
+.roundbutton{
+	border-radius:4px;
+}
+.img{
+	width:320px !important;
+	height:200px !important;
+	border-radius:4px !important;
+}
+.textposition{
+	position :absolute;
+	left:50px;
+}
