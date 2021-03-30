@@ -18,7 +18,7 @@
 			}	
 		</style>
 		<script src ="/Assignment4/googlemap.js"></script>
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFgwJ77ovXcaWwmOfUBSu0wbwDyJENl4I"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key="></script>
 	
 	</head>
 	
